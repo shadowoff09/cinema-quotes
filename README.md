@@ -1,18 +1,18 @@
 ![](src/public/images/banner.png)</br>
-[![Licence](https://img.shields.io/github/license/shadowoff09/lucifer-quotes)](https://github.com/shadowoff09/lucifer-quotes/blob/main/LICENSE)
-[![Deployments](https://img.shields.io/github/deployments/shadowoff09/lucifer-quotes/Production?logo=vercel)](https://github.com/shadowoff09/lucifer-quotes)
-[![Commits](https://img.shields.io/github/last-commit/shadowoff09/lucifer-quotes)](https://github.com/shadowoff09/lucifer-quotes/commits/main)
-[![Repo Size](https://img.shields.io/github/repo-size/shadowoff09/lucifer-quotes)](https://github.com/shadowoff09/lucifer-quotes)
-[![Quotes](https://img.shields.io/badge/quotes-78-blue)](https://github.com/shadowoff09/lucifer-quotes/blob/main/quotes.js)
+[![Licence](https://img.shields.io/github/license/shadowoff09/cinema-quotes)](https://github.com/shadowoff09/cinema-quotes/blob/main/LICENSE)
+[![Deployments](https://img.shields.io/github/deployments/shadowoff09/cinema-quotes/Production?logo=vercel)](https://github.com/shadowoff09/cinema-quotes)
+[![Commits](https://img.shields.io/github/last-commit/shadowoff09/cinema-quotes)](https://github.com/shadowoff09/cinema-quotes/commits/main)
+[![Repo Size](https://img.shields.io/github/repo-size/shadowoff09/cinema-quotes)](https://github.com/shadowoff09/cinema-quotes)
+[![Quotes](https://img.shields.io/badge/quotes-78-blue)](https://github.com/shadowoff09/cinema-quotes/blob/main/quotes.js)
 [![Paypal](https://img.shields.io/badge/Paypal-Donate-blue)](https://paypal.me/diogogaspar123)
 [![Ko-Fi](https://img.shields.io/badge/Ko--Fi-Donate-ff69b4)](https://ko-fi.com/shadowoff09)
-[![CodeFactor](https://www.codefactor.io/repository/github/shadowoff09/lucifer-quotes/badge)](https://www.codefactor.io/repository/github/shadowoff09/lucifer-quotes)
+[![CodeFactor](https://www.codefactor.io/repository/github/shadowoff09/cinema-quotes/badge)](https://www.codefactor.io/repository/github/shadowoff09/cinema-quotes)
 
 # Lucifer quotes API
 
 A simple API to retrieve some quotes of Lucifer, shawty!
 
-:globe_with_meridians: Website: [https://lucifer-quotes.vercel.app](https://lucifer-quotes.vercel.app)
+:globe_with_meridians: Website: [https://cinema-quotes.vercel.app](https://cinema-quotes.vercel.app)
 
 ## API Documentation
 
@@ -20,7 +20,7 @@ A simple API to retrieve some quotes of Lucifer, shawty!
 
 Get a random quote in this format:
 
-> [https://lucifer-quotes.vercel.app/api/quotes](https://lucifer-quotes.vercel.app/api/quotes)
+> [https://cinema-quotes.vercel.app/api/quotes](https://cinema-quotes.vercel.app/api/quotes)
 
 	[
 	  {
@@ -34,7 +34,7 @@ Get a random quote in this format:
 
 Returns an array with `{number}` quotes e.g. `GET /api/quotes/5`.
 
-> [https://lucifer-quotes.vercel.app/api/quotes/5](https://lucifer-quotes.vercel.app/api/quotes/5)
+> [https://cinema-quotes.vercel.app/api/quotes/5](https://cinema-quotes.vercel.app/api/quotes/5)
 
 	[
 	  {
