@@ -1,29 +1,27 @@
 {
-  "name": "lucifer-quotes",
+  "name": "cinema-quotes",
   "version": "1.0.0",
-  "description": "A simple API to retrieve some quotes from Lucifer",
+  "description": "A simple API to retrieve quotes from various movies/series!",
   "repository": {
     "type": "git",
-    "url": "https://github.com/shadowoff09/lucifer-quotes-api"
+    "url": "https://github.com/shadowoff09/cinema-quotes"
   },
   "keywords": [
-    "lucifernetflix",
-    "devil",
-    "lucifer",
     "quotes",
     "api"
   ],
   "author": "Shadowoff09",
   "bugs": {
-    "url": "https://github.com/shadowoff09/lucifer-quotes-api/issues"
+    "url": "https://github.com/shadowoff09/cinema-quotes/issues"
   },
-  "homepage": "https://github.com/shadowoff09/lucifer-quotes-api",
+  "homepage": "https://github.com/shadowoff09/cinema-quotes",
   "main": "src/server.js",
   "scripts": {
     "build": "node server.js",
     "dev": "npm run build"
   },
   "dependencies": {
+    "dotenv": "^16.0.3",
     "express": "^4.18.2"
   },
   "license": "MIT"

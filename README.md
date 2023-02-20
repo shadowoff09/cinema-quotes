@@ -8,61 +8,17 @@
 [![Ko-Fi](https://img.shields.io/badge/Ko--Fi-Donate-ff69b4)](https://ko-fi.com/shadowoff09)
 [![CodeFactor](https://www.codefactor.io/repository/github/shadowoff09/cinema-quotes/badge)](https://www.codefactor.io/repository/github/shadowoff09/cinema-quotes)
 
-# Lucifer quotes API
+# Cinema quotes API
 
-A simple API to retrieve some quotes of Lucifer, shawty!
+A simple API to retrieve quotes from various movies/series!
 
-:globe_with_meridians: Website: [https://cinema-quotes.vercel.app](https://cinema-quotes.vercel.app)
+Docs: [https://cinema.shadowthings.xyz](https://cinema-quotes.vercel.app)
 
-## API Documentation
-
-### `GET /api/quotes`
-
-Get a random quote in this format:
-
-> [https://cinema-quotes.vercel.app/api/quotes](https://cinema-quotes.vercel.app/api/quotes)
-
-	[
-	  {
-	    "quote": "The Devil gets burned by fire. Could this be any more ironic?",
-	    "author": "Lucifer Morningstar"
-	  }
-	]
-
-
-### `GET /api/quotes/{number}`
-
-Returns an array with `{number}` quotes e.g. `GET /api/quotes/5`.
-
-> [https://cinema-quotes.vercel.app/api/quotes/5](https://cinema-quotes.vercel.app/api/quotes/5)
-
-	[
-	  {
-	    "quote": "You see, what I hate more than anything is a liar. A charlatan. Someone who doesn't believe in what they say.",
-	    "author": "Lucifer Morningstar"
-	  },
-	  {
-	    "quote": "I'm trying to say this from a constructive place. I can feel your negative vibrations from across the room, man.",
-	    "author": "Dan Espinoza"
-	  },
-	  {
-	    "quote": "My name is ASAC Schrader, and you can go f*ck yourself.",
-	    "author": "Chloe Decker"
-	  },
-	  {
-	    "quote": "Sometimes we need to lose something before we can understand its value.",
-	    "author": "Linda Martin"
-	  },
-	  {
-	    "quote": "You know, joining each other at crime scenes, bantering over dead bodies. And where does that leave you, right?",
-	    "author": "Ella Lopez"
-	  }
-	]
 
 
 ## Contributing
 
-If you want to add some quotes, just add them in `src/quotes.js` file and do a pull request !
+Work in progress...
 
 ## Donate
 If you liked this project feel free to donate me for future awesome projects!</br>
@@ -77,6 +33,8 @@ If you liked this project feel free to donate me for future awesome projects!</b
 
 - [strangerthings-quotes](https://github.com/shadowoff09/strangerthings-quotes)
 - [bcs-quotes](https://github.com/shadowoff09/bcs-quotes)
+
+- [lucifer-quotes](https://github.com/shadowoff09/lucifer-quotes)
 
 ---
 

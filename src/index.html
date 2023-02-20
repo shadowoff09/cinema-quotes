@@ -1,133 +1,292 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <title>Lucifer Quotes API</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="/css/styles.css">
-  <link rel="icon" type="image/png" href="/images/favicon.png">
-  <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.3/gh-fork-ribbon.min.css"
-    />
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
+  <link href="images/favicon.png" rel="icon" />
+  <title>Documentation | Cinema Quotes</title>
+  <meta name="description" content="Your ThemeForest item Name and description">
+  <meta name="author" content="harnishdesign.net">
+  <!-- Stylesheet
+============================== -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css" />
+  <!-- Font Awesome Icon -->
+  <link rel="stylesheet" type="text/css" href="vendor/font-awesome/css/all.min.css" />
+  <!-- Magnific Popup -->
+  <link rel="stylesheet" type="text/css" href="vendor/magnific-popup/magnific-popup.min.css" />
+  <!-- Highlight Syntax -->
+  <link rel="stylesheet" type="text/css" href="vendor/highlight.js/styles/github.css" />
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
 </head>
 
+<body data-spy="scroll" data-target=".docs-navigation" data-offset="125">
 
-<body>
-  <a
-  class="github-fork-ribbon"
-  href="https://github.com/shadowoff09/lucifer-quotes"
-  data-ribbon="Fork me on GitHub"
-  title="Fork me on GitHub"
-  >Fork me on GitHub</a
->
-  <main>
-    <img src="/images/banner.png"/><br />
-    <div class="badges">
-
-      <a href="https://github.com/shadowoff09/lucifer-quotes/blob/main/LICENSE">
-        <img src="https://img.shields.io/github/license/shadowoff09/lucifer-quotes" alt="license"/>
-      </a>
-
-      <a href="https://github.com/shadowoff09/lucifer-quotes">
-        <img src="https://img.shields.io/github/deployments/shadowoff09/lucifer-quotes/lucifer-quotes" alt="deployments"/>
-      </a>
-
-      <a href="https://github.com/shadowoff09/lucifer-quotes/commits/main">
-        <img src="https://img.shields.io/github/last-commit/shadowoff09/lucifer-quotes" alt="last-commit"/>
-      </a>
-
-      <a href="https://github.com/shadowoff09/lucifer-quotes">
-        <img src="https://img.shields.io/github/repo-size/shadowoff09/lucifer-quotes" alt="repo-size"/>
-      </a>
-
-      <a href="https://github.com/shadowoff09/lucifer-quotes/blob/main/src/quotes.js" alt="quotes">
-        <img src="https://img.shields.io/badge/quotes-67-blue"/>
-      </a>
-
-      <a href="https://paypal.me/diogogaspar123">
-        <img src="https://img.shields.io/badge/Paypal-Donate-blue" alt="paypal-badge">
-      </a>
-
-      <a href="https://ko-fi.com/shadowoff09"> 
-        <img src="https://img.shields.io/badge/Ko--Fi-Donate-ff69b4" alt="Kofi">
-      </a>
+  <!-- Preloader -->
+  <div class="preloader">
+    <div class="lds-ellipsis">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
     </div>
+  </div>
+  <!-- Preloader End -->
 
-    <h2 id="api">Usage</h2>
+  <!-- Document Wrapper   
+=============================== -->
+  <div id="main-wrapper">
 
-    <h3 id="get-v1quotes">
-      <code>GET /api/quotes</code>
-    </h3>
+    <!-- Header
+  ============================ -->
+    <header id="header" class="sticky-top">
+      <!-- Navbar -->
+      <nav class="primary-menu navbar navbar-expand-lg navbar-dropdown-dark">
+        <div class="container-fluid">
+          <!-- Sidebar Toggler -->
+          <button id="sidebarCollapse" class="navbar-toggler d-block d-md-none" type="button"><span></span><span
+              class="w-75"></span><span class="w-50"></span></button>
 
-    <p>Get a random quote in this format:</p>
+          <!-- Logo -->
+          <a class="logo ml-md-3" href="index.html" title="Cinema Quotes Logo"> <img src="images/logo.png"
+              alt="Cinema Quotes Logo" /> </a>
+          <span class="text-2 ml-2">v1.0.0</span>
+          <!-- Logo End -->
 
-    <blockquote>
-      <p>
-        <a href="https://lucifer-quotes.vercel.app/api/quotes" target="_blank">https://lucifer-quotes.vercel.app/api/quotes</a>
-      </p>
-    </blockquote>
-    <pre>
-      <code>
-        [
-          {
-            "quote": "The Devil gets burned by fire. Could this be any more ironic?",
-            "author": "Lucifer Morningstar"
-          }
-        ]
-      </code>
-    </pre>
+          <!-- Navbar Toggler -->
+          <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
+            data-target="#header-nav"><span></span><span></span><span></span></button>
 
-    <h3 id="get-v1quotesnumber">
-      <code>GET /api/quotes/{number}</code>
-    </h3>
+          <div id="header-nav" class="collapse navbar-collapse justify-content-end">
+            <ul class="social-icons social-icons-sm ml-lg-2 mr-2">
+              <li class="social-icons-github"><a data-toggle="tooltip" href="http://www.github.com/shadowoff09/"
+                  target="_blank" title="" data-original-title="Github"><i class="fab fa-github"></i></a></li>
+            </ul>
+          </div>
+      </nav>
+      <!-- Navbar End -->
+    </header>
+    <!-- Header End -->
 
-    <p>Returns an array with <code>{number}</code> quotes e.g. <code>GET /api/quotes/5</code>.</p>
+    <!-- Content
+  ============================ -->
+    <div id="content" role="main">
 
-    <blockquote>
-      <p>
-        <a href="https://lucifer-quotes.vercel.app/api/quotes/5">https://lucifer-quotes.vercel.app/api/quotes/5</a>
-      </p>
-    </blockquote>
-    <pre>
-      <code>
-        [
-          {
-            "quote": "You see, what I hate more than anything is a liar. A charlatan. Someone who doesn't believe in what they say.",
-            "author": "Lucifer Morningstar"
-          },
-          {
-            "quote": "I'm trying to say this from a constructive place. I can feel your negative vibrations from across the room, man.",
-            "author": "Dan Espinoza"
-          },
-          {
-            "quote": "My name is ASAC Schrader, and you can go f*ck yourself.",
-            "author": "Chloe Decker"
-          },
-          {
-            "quote": "Sometimes we need to lose something before we can understand its value.",
-            "author": "Linda Martin"
-          },
-          {
-            "quote": "You know, joining each other at crime scenes, bantering over dead bodies. And where does that leave you, right?",
-            "author": "Ella Lopez"
-          }
-        ]
-      </code>   
-    </pre>
-    
-    <h2 id="contributing">Contributing</h2>
-    <p>If you want to add some quotes, just add them in <a href="https://github.com/shadowoff09/lucifer-quotes/blob/main/src/quotes.js">quotes.js</a> file and do a pull request !</p>
-    <h2 id="authors">Authors</h2>
-    <ul>
-      <li><a href="https://www.github.com/shadowoff09">@shadowoff09</a></li>
-    </ul>
-    <h2 id="license">License</h2>
-      <ul>
-        <li><a href="https://github.com/shadowoff09/lucifer-quotes/blob/main/LICENSE">MIT</a></li>
-      </ul>
-  </main>
+      <!-- Sidebar Navigation
+	============================ -->
+      <div class="docs-navigation bg-light">
+        <ul class="nav flex-column ">
+          <li class="nav-item"><a class="nav-link active" href="#gettingstarted">Getting Started</a>
+            <ul class="nav flex-column">
+              <li class="nav-item"><a class="nav-link" href="#installation">Installation</a></li>
+              <li class="nav-item"><a class="nav-link" href="#usage">Usage</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#endpoints">Endpoints</a>
+            <ul class="nav flex-column">
+              <li class="nav-item"><a class="nav-link" href="#strangerthings_endpoint">Stranger Things</a></li>
+              <li class="nav-item"><a class="nav-link" href="#lucifer_endpoint">Lucifer</a></li>
+              <li class="nav-item"><a class="nav-link" href="#bettercallsaul_endpoint">Better Call Saul</a></li>
+              <li class="nav-item"><a class="nav-link" href="#breakingbad_endpoint">Breaking Bad</a></li>
+              <li class="nav-item"><a class="nav-link" href="#deathnote_endpoint">Death Note</a></li>
+              <li class="nav-item"><a class="nav-link" href="#thelastofus_endpoint">The Last of Us</a></li>
+              <li class="nav-item"><a class="nav-link" href="#onepiece_endpoint">One Piece</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#contribuiting">Contributing</a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Docs Content
+	============================ -->
+      <div class="content">
+        <div class="container">
+
+          <!-- Getting Started
+		============================ -->
+          <section id="gettingstarted">
+            <h1>Documentation</h1>
+            <h2>Cinema Quotes API</q></h2>
+            <p class="lead">Thank you for using this api.</p>
+            <hr>
+            <div class="row">
+              <div class="col-sm-6 col-lg-4">
+                <ul class="list-unstyled">
+                  <li><strong>Version:</strong> 1.0.0</li>
+                  <li><strong>Author:</strong> <a href="http://github.com/shadowoff09" target="_blank">shadowoff09</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-lg-4">
+                <ul class="list-unstyled">
+                  <li><strong class="font-weight-700">Created:</strong> 2 February, 2023</li>
+                </ul>
+              </div>
+            </div>
+            <p class="alert alert-info">If you have any questions that are beyond the scope of this help file, Please
+              feel free to create an topic via <a target="_blank"
+                href="https://github.com/shadowoff09/cinema-quotes/discussions/new/choose">Github Discussions</a>.</p>
+          </section>
+
+          <hr class="divider">
+
+          <!-- Installation
+		============================ -->
+          <section id="installation">
+            <h2>Installation</h2>
+            <p class="lead">Follow the steps below to setup your api:</p>
+            <ol>
+              <li>Open your terminal and navigate to the directory where you want to clone the repository.</li>
+              <pre><code>$ cd /path/to/your/directory</code></pre>
+              <li>Clone the repository using the git clone command.</li>
+              <pre><code>$ git clone https://github.com/shadowoff09/cinema-quotes.git </code></pre>
+              <li>Navigate to the cloned repository directory.</li>
+              <pre><code>$ cd cinema-quotes</code></pre>
+              <li>Install the project dependencies using npm. This assumes that you have <a
+                  href="https://nodejs.org/en">Node.js</a> and npm installed on your system.</li>
+              <pre><code>$ npm install</code></pre>
+              <li>Start the server using the npm run dev command for development proposes.</li>
+              <pre><code>$ npm run dev</code></pre>
+              <li>Or start the server using the npm run start command for production proposes.</li>
+              <pre><code>$ npm run start</code></pre>
+              <li>The server should now be running and listening for requests on port 3000. To access the API, open your
+                web browser and go to <a href="http://localhost:3001">http://localhost:3001</a>.</li>
+
+          </section>
+
+          <hr class="divider">
+
+          <!-- Usage
+		============================ -->
+          <section id="usage">
+            <h2>Usage</h2>
+            <p>To use this api you have at the moment 7 endpoints for this list of movies/series:</p>
+            <ul>
+              <li>Stranger Things</li>
+              <li>Lucifer</li>
+              <li>Better Call Saul</li>
+              <li>Breaking Bad</li>
+              <li>Death Note</li>
+              <li>The Last of Us</li>
+              <li>One Piece</li>
+            </ul>
+          </section>
+
+          <hr class="divider">
+
+          <!-- Endpoints
+            ============================ -->
+          <section id="endpoints">
+            <h2>Endpoints</h2>
+            <p>Here you can find all the endpoints for this api.</p>
+            <section id="strangerthings_endpoint">
+              <h4>Stranger Things Endpoint</h4>
+              <h6>To use this endpoint you can use the following:</h6>
+              <p>To get only one quote:</p>
+              <pre><code>https://cinema.shadowthings.xyz/api/quotes/strangerthings</code></pre>
+              <p>To get a custom number of quotes (eg: 5 quotes):</p>
+              <pre><code>https://cinema.shadowthings.xyz/api/quotes/strangerthings/5</code></pre>
+            </section>
+            <section id="lucifer_endpoint">
+              <h4>Lucifer Endpoint</h4>
+              <h6>To use this endpoint you can use the following:</h6>
+              <p>To get only one quote:</p>
+              <pre><code>https://cinema.shadowthings.xyz/api/quotes/lucifer</code></pre>
+              <p>To get a custom number of quotes (eg: 5 quotes):</p>
+              <pre><code>https://cinema.shadowthings.xyz/api/quotes/lucifer/5</code></pre>
+            </section>
+            <section id="bettercallsaul_endpoint">
+              <h4>Better Call Saul Endpoint</h4>
+              <h6>To use this endpoint you can use the following:</h6>
+              <p>To get only one quote:</p>
+              <pre><code>https://cinema.shadowthings.xyz/api/quotes/bettercallsaul</code></pre>
+              <p>To get a custom number of quotes (eg: 5 quotes):</p>
+              <pre><code>https://cinema.shadowthings.xyz/api/quotes/bettercallsaul/5</code></pre>
+            </section>
+            <section id="breakingbad_endpoint">
+              <h4>Breaking Bad Endpoint</h4>
+              <h6>To use this endpoint you can use the following:</h6>
+              <p>To get only one quote:</p>
+              <pre><code>https://cinema.shadowthings.xyz/api/quotes/breakingbad</code></pre>
+              <p>To get a custom number of quotes (eg: 5 quotes):</p>
+              <pre><code>https://cinema.shadowthings.xyz/api/quotes/breakingbad/5</code></pre>
+            </section>
+            <section id="deathnote_endpoint">
+              <h4>Death Note Endpoint</h4>
+              <h6>To use this endpoint you can use the following:</h6>
+              <p>To get only one quote:</p>
+              <pre><code>https://cinema.shadowthings.xyz/api/quotes/deathnote</code></pre>
+              <p>To get a custom number of quotes (eg: 5 quotes):</p>
+              <pre><code>https://cinema.shadowthings.xyz/api/quotes/deathnote/5</code></pre>
+            </section>
+            <section id="thelastofus_endpoint">
+              <h4>The Last of Us Endpoint</h4>
+              <h6>To use this endpoint you can use the following:</h6>
+              <p>To get only one quote:</p>
+              <pre><code>https://cinema.shadowthings.xyz/api/quotes/thelastofus</code></pre>
+              <p>To get a custom number of quotes (eg: 5 quotes):</p>
+              <pre><code>https://cinema.shadowthings.xyz/api/quotes/thelastofus/5</code></pre>
+            </section>
+            <section id="onepiece_endpoint">
+              <h4>One Piece Endpoint</h4>
+              <h6>To use this endpoint you can use the following:</h6>
+              <p>To get only one quote:</p>
+              <pre><code>https://cinema.shadowthings.xyz/api/quotes/onepiece</code></pre>
+              <p>To get a custom number of quotes (eg: 5 quotes):</p>
+              <pre><code>https://cinema.shadowthings.xyz/api/quotes/onepiece/5</code></pre>
+            </section>
+
+            <hr class="divider">
+
+            <!-- Contribuiting
+		============================ -->
+
+            <section id="contribuiting">
+              <h2>Contribuiting</h2>
+              <p>If you want to contribute to this project you can do it by forking the project and making a pull request.</p>
+            </section>
+
+        </div>
+      </div>
+
+    </div>
+    <!-- Content end -->
+
+    <!-- Footer
+  ============================ -->
+    <footer id="footer" class="section bg-white footer-text-light">
+      <div class="container">
+        <ul class="social-icons social-icons-lg social-icons-muted justify-content-center mb-3">
+          <li><a data-toggle="tooltip" href="http://www.github.com/shadowoff09/cinema-quotes" target="_blank" title=""
+              data-original-title="GitHub"><i class="fab fa-github"></i></a></li>
+        </ul>
+      </div>
+    </footer>
+    <!-- Footer end -->
+
+  </div>
+  <!-- Document Wrapper end -->
+
+  <!-- Back To Top -->
+  <a id="back-to-top" data-toggle="tooltip" title="Back to Top" href="javascript:void(0)"><i
+      class="fa fa-chevron-up"></i></a>
+
+  <!-- JavaScript
+============================ -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- Highlight JS -->
+  <script src="vendor/highlight.js/highlight.min.js"></script>
+  <!-- Easing -->
+  <script src="vendor/jquery.easing/jquery.easing.min.js"></script>
+  <!-- Magnific Popup -->
+  <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+  <!-- Custom Script -->
+  <script src="js/theme.js"></script>
 </body>
 
 </html>
