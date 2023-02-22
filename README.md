@@ -6,7 +6,6 @@
 [![Quotes](https://img.shields.io/badge/quotes-78-blue)](https://github.com/shadowoff09/cinema-quotes/blob/main/quotes.js)
 [![Paypal](https://img.shields.io/badge/Paypal-Donate-blue)](https://paypal.me/diogogaspar123)
 [![Ko-Fi](https://img.shields.io/badge/Ko--Fi-Donate-ff69b4)](https://ko-fi.com/shadowoff09)
-[![CodeFactor](https://www.codefactor.io/repository/github/shadowoff09/cinema-quotes/badge)](https://www.codefactor.io/repository/github/shadowoff09/cinema-quotes)
 
 # Cinema quotes API
 
