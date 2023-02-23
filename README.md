@@ -14,7 +14,6 @@ A simple API to retrieve quotes from various movies/series!
 Docs: [https://cinema.shadowthings.xyz](https://cinema-quotes.vercel.app)
 
 
-
 ## Contributing
 
 Work in progress...
@@ -36,8 +35,5 @@ If you liked this project feel free to donate me for future awesome projects!</b
 - [lucifer-quotes](https://github.com/shadowoff09/lucifer-quotes)
 
 ---
-
-[![https://vercel.com?utm_source=shadowoff09&utm_campaign=oss](./powered-by-vercel.svg)](https://vercel.com?utm_source=shadowoff09&utm_campaign=oss)
-
 
 Made with :heart: and JavaScript.

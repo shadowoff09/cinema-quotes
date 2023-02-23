@@ -18,7 +18,8 @@
   "main": "src/server.js",
   "scripts": {
     "build": "node server.js",
-    "dev": "npm run build"
+    "dev": "npm run build",
+    "start": "npm run build"
   },
   "dependencies": {
     "dotenv": "^16.0.3",
