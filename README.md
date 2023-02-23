@@ -65,5 +65,5 @@ You will need [git](https://git-scm.com/downloads), the latest or LTS version of
     <img src="https://github.githubassets.com/images/icons/emoji/octocat.png" />
   </a>
   <br><br>
-  <i>Made with :love: and Javascript</i>
+  <i>Made with ❤️ and Javascript</i>
 </p>
