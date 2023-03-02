@@ -81,7 +81,8 @@
         <ul class="nav flex-column ">
           <li class="nav-item"><a class="nav-link active" href="#gettingstarted">Getting Started</a>
             <ul class="nav flex-column">
-              <li class="nav-item"><a class="nav-link" href="#installation">Installation</a></li>
+              <li class="nav-item"><a class="nav-link" href="#installation_source">Installation from Source</a></li>
+              <li class="nav-item"><a class="nav-link" href="#installation_docker">Installation from Docker</a></li>
               <li class="nav-item"><a class="nav-link" href="#usage">Usage</a></li>
             </ul>
           </li>
@@ -136,8 +137,8 @@
 
           <!-- Installation
 		============================ -->
-          <section id="installation">
-            <h2>Installation</h2>
+          <section id="installation_source">
+            <h2>Installation from Source 🔨</h2>
             <p class="lead">Follow the steps below to setup your api:</p>
             <ol>
               <li>Open your terminal and navigate to the directory where you want to clone the repository.</li>
@@ -156,6 +157,47 @@
               <li>The server should now be running and listening for requests on port 3000. To access the API, open your
                 web browser and go to <a href="http://localhost:3001">http://localhost:3001</a>.</li>
 
+          </section>
+
+          <hr class="divider">
+
+          <!-- Installation with Docker
+		============================ -->
+          <section id="installation_docker">
+            <h2>Installation using Docker</h2>
+            
+            <p class="lead">Follow the steps below to setup your api:</p>
+            <h5 class="lead">Using Docker Hub 🐳</h5>
+            <ol>
+              <p>You will need Docker installed on your machine.</p>
+              <p>After Docker is installed you should run this command</p>
+              <pre><code>$ docker run -d -p 3001:3001 shadowoff09/cinema-quotes:latest</code></pre>
+              <p>Or</p>
+              <pre><code>$ docker run -d \
+  -p 3001:3001 \
+  --name cinema-quotes \
+  --restart=always \
+  shadowoff09/cinema-quotes:latest</code></pre>
+  
+  <a href="https://hub.docker.com/r/shadowoff09/cinema-quotes"><img src="https://dockerico.blankenship.io/image/shadowoff09/cinema-quotes"/></a>
+  <p>The server should now be running and listening for requests on port 3001. To access the API, open your web browser and go to <a href="http://localhost:3001">http://localhost:3001</a>.</p>
+  
+            </ol>
+
+
+              <h5 class="lead">Deploying using GitHub (GHCR) 🐙</h5>
+            <ol>
+              <p>You will need Docker installed on your machine.</p>
+              <p>After Docker is installed you should run this command</p>
+              <pre><code>$ docker run -p 3001:3001 ghcr.io/shadowoff09/cinema-quotes:latest</code></pre>
+              <p>Or</p>
+              <pre><code>$ docker run -d \
+  -p 3001:3001 \
+  --name cinema-quotes \
+  --restart=always \
+  ghcr.io/shadowoff09/cinema-quotes:latest</code></pre>
+            </ol>
+            <p>The server should now be running and listening for requests on port 3001. To access the API, open your web browser and go to <a href="http://localhost:3001">http://localhost:3001</a>.</p>
           </section>
 
           <hr class="divider">
