@@ -6,8 +6,8 @@
   <a href="https://hub.docker.com/r/shadowoff09/cinema-quotes">
     <img src="https://img.shields.io/docker/pulls/shadowoff09/cinema-quotes?logo=docker&color=0aa8d2&logoColor=fff" alt="Docker Pulls">
   </a>
-  <a href="http://as93.link/dashy-build-status">
-   <img src="https://badgen.net/github/status/shadowoff09/cinema-quotes?icon=github" alt="GitHub Status">
+  <a href="https://github.com/shadowoff09/cinema-quotes/actions/workflows/docker.yml">
+    <img src="https://github.com/shadowoff09/cinema-quotes/actions/workflows/docker.yml/badge.svg" alt="Github Actions">
   </a>
 </p>
 
