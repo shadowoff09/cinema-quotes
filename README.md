@@ -61,8 +61,8 @@ You will need [git](https://git-scm.com/downloads), the latest or LTS version of
 
 <p align="center">
   <br><br>
-  <a href="https://github.com/Lissy93/dashy">
-    <img src="https://github.githubassets.com/images/icons/emoji/octocat.png" />
+  <a href="[https://github.com/Lissy93/dashy](https://vercel.com?utm_source=shadowoff09&utm_campaign=oss)">
+    <img src="./powered-by-vercel.svg" />
   </a>
   <br><br>
   <i>Made with ❤️ and Javascript</i>
